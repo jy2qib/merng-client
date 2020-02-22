@@ -3,6 +3,7 @@
     height: 200px;
     padding-left: 10%;
     padding-right: 10%; 
+    margin-top: 0;
 }
 
 a {
@@ -16,6 +17,15 @@ p {
 
 h1 {
     font-size: 3rem;
+}
+
+.siteName { width: 82%; 
+    display: block; 
+    margin: 0 auto; 
+    color: #002946; 
+    font-size: 72px; 
+    padding: 0; 
+    line-height: .75;  
 }
 
 .page-title {

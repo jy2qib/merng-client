@@ -14,12 +14,14 @@ import Posts from './pages/Posts';  //include component file Posts.js
 import Login from './pages/Login';
 import Register from './pages/Register';
 import SinglePost from './pages/SinglePost';
+import sniffy from './img/sniffy.png';
 
 function App() {  //For Menu Item Layout see MenuBar.js
   return (
     <AuthProvider>
       <Router>
           <Container fluid>           {/* fluid extends page edge to edge */}
+          <div className="siteName"><img src={ sniffy } alt="I am a coder!" /></div>
            <MenuBar  />                                        {/* MenuBar Layout Position */}
             <Route exact path='/' component={Home} />
             <Route exact path='/posts' component={Posts} />   {/* specifies /posts route and component {Posts} js */}
