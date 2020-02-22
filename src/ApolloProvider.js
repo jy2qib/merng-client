@@ -7,8 +7,9 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 //uri: 'https://graphql-pokemon.now.sh/'
+// uri: 'http://localhost:5000'
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000'
+  uri: 'https://secret-caverns-78901.herokuapp.com/'
 });
 
 const authLink = setContext(() => {
