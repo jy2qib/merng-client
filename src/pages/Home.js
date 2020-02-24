@@ -29,7 +29,8 @@ function Home() {
             </Grid.Row>
             <Grid.Row >
                 <Grid.Column>
-                <p>This is a demonstration of an application created using React, GraphQL, Apollo, Semantic UI and MongoDB. </p>
+                <h2>User 123456.</h2>
+                <p><strong>This is a demonstration of an application developed using React, GraphQL, Apollo, Semantic UI and MongoDB.</strong></p>
                 <p>Sed et ligula eget lorem commodo dapibus et in augue. Donec eu est vitae ex ultrices gravida id ac ante. 
                     Aenean pulvinar et risus in molestie. Cras egestas, augue quis dapibus scelerisque, nibh augue ornare nulla, 
                     eu fringilla massa velit et magna. Aliquam varius aliquet tortor. Etiam dignissim ex ultrices nisi accumsan, sed commodo sem lobortis. </p>
