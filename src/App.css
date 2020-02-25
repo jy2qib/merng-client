@@ -41,6 +41,14 @@ h1 {
     color: #cccccc;
 }
 
+.footer-left, .footer-right {
+    display: block;
+}
+
+.footer-left {  width:75%; float: left; padding-bottom: 40px;  }
+.footer-right {  width: 25%; float: right;   }
+.footer-right span { white-space: nowrap; }
+
 .siteName { width: 82%; 
     display: block; 
     margin: 0 auto; 
