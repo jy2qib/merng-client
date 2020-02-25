@@ -1,5 +1,5 @@
 .ui.secondary.pointing.menu { 
-    background:#002946 url('img/header-BG.jpg') no-repeat center center;
+    background:#00223a url('img/header-BG.jpg') no-repeat center center;
     height: 200px;
     padding-left: 10%;
     padding-right: 10%; 
@@ -21,7 +21,7 @@ h1 {
 
 .footer {
     padding: 40px 10%;
-    background-color:#002946;
+    background-color:#00223a;
     position: fixed;
     left: 0;
     bottom: 0; 
@@ -32,8 +32,13 @@ h1 {
 
 .footer p { 
     font-size: 13px;
-    color: #aaaaaa;
+    color: #666666;
     line-height: 1.6;
+}
+
+.footer p strong { 
+    font-weight: bolder;
+    color: #cccccc;
 }
 
 .siteName { width: 82%; 
