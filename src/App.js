@@ -15,9 +15,11 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import SinglePost from './pages/SinglePost';
 import sniffy from './img/sniffy.png';
+import Footer from './components/Footer';
 
 function App() {  //For Menu Item Layout see MenuBar.js
   return (
+    <>
     <AuthProvider>
       <Router>
           <Container fluid>           {/* fluid extends page edge to edge */}
@@ -31,6 +33,8 @@ function App() {  //For Menu Item Layout see MenuBar.js
           </Container>
       </Router>
     </AuthProvider>
+    <Footer />
+    </>
   );
 }
 

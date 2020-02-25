@@ -19,6 +19,23 @@ h1 {
     font-size: 3rem;
 }
 
+.footer {
+    padding: 40px 10%;
+    background-color:#002946;
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    margin-top: 40px;
+    width: 100%;
+    z-index: 999;
+}
+
+.footer p { 
+    font-size: 13px;
+    color: #aaaaaa;
+    line-height: 1.6;
+}
+
 .siteName { width: 82%; 
     display: block; 
     margin: 0 auto; 
